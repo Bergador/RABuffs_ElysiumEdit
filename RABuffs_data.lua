@@ -624,7 +624,6 @@ function RAB_DefaultCastingHandler(mode, query)
   if (mode == "tip") then
    return string.format(clicktocast, buff, RAB_Chat_Colors[RAB_UnitClass("player")] .. UnitName("player"));
   elseif (mode == "cast") then
-  DEFAULT_CHAT_FRAME:AddMessage("mode is cast");
    CastSpellByName(buff,true);
    RAB_ResetRecastTimer("player",cmd);
    RAB_Print(string.format(sRAB_CastBuff_CastNeutral,buff));
