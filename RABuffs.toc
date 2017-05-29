@@ -1,5 +1,5 @@
 ## Interface: 11200
-## Title: RABuffs
+## Title: RABuffs |cff19D21EElysiumEdit|r
 ## Notes: Monitors a raid / party group, displaying various statistics.
 ## OptionalDeps: CT_RaidAssist, SlashHelp
 ## SavedVariables: RABui_Settings
